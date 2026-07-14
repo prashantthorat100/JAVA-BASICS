@@ -1,4 +1,6 @@
-import java.util.*;
+
+import java.util.Scanner;
+
 public class practice {
     public static void main(String[] arg){
 
@@ -140,30 +142,66 @@ public class practice {
 
 
 
-        try(Scanner sc = new Scanner(System.in)){
-            System.out.print("Enter Number: ");
+        // try(Scanner sc = new Scanner(System.in)){
+        //     System.out.print("Enter Number: ");
 
+        //     int n = sc.nextInt();
+        //     for(int i=1;i<=n;i++){
+        //         for(int j=1;j<=n-i;j++){
+        //             System.out.print(" ");
+        //         }
+        //         for(int k=1;k<=i;k++){
+        //             System.out.print("*");
+        //         }
+        //         System.out.print("\n");
+        //     }
+        //     for(int i=1;i<=n-1;i++){
+        //         for(int j=1;j<=i;j++){
+        //             System.out.print(" ");
+        //         }
+        //         for(int k=1;k<=n-i;k++){
+        //             System.out.print("*");
+        //         }
+        //         System.out.print("\n");
+        //     }
+        // }
+
+
+        // Hollow rectangle
+        // try(Scanner sc = new Scanner(System.in)){
+        //     int n = sc.nextInt();
+        //     int m = sc.nextInt();
+
+        //     for(int i=1;i<=n;i++){
+        //         for(int j=1;j<=m;j++){
+        //             if(i==1 || j==1 || i==n || j==m){
+        //                 System.out.print("*");
+        //             }
+        //             else{
+        //                 System.out.print(" ");
+        //             }
+        //         }
+        //         System.out.print("\n");
+        //     }
+        // }
+
+
+        try(Scanner sc = new Scanner(System.in)){
             int n = sc.nextInt();
+            int m = sc.nextInt();
+
             for(int i=1;i<=n;i++){
-                for(int j=1;j<=n-i;j++){
-                    System.out.print(" ");
-                }
-                for(int k=1;k<=i;k++){
-                    System.out.print("*");
-                }
-                System.out.print("\n");
-            }
-            for(int i=1;i<=n-1;i++){
-                for(int j=1;j<=i;j++){
-                    System.out.print(" ");
-                }
-                for(int k=1;k<=n-i;k++){
-                    System.out.print("*");
+                for(int j=1;j<=m;j++){
+                    if(i==1 || j==1 || i==n || j==m){
+                        System.out.print("*");
+                    }
+                    else{
+                        System.out.print(" ");
+                    }
                 }
                 System.out.print("\n");
             }
         }
-
 
         
 
