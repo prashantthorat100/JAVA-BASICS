@@ -102,24 +102,24 @@ public class practice {
 
 
         // triangle 
-        // try(Scanner sc = new Scanner(System.in)){
-        //     System.out.print("Enter Number: ");
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.print("Enter Number: ");
 
-        //     int n = sc.nextInt();
-        //     for(int i =1; i<=n;i++){
-        //         for(int j=1; j<=n-i;j++){
-        //             System.out.print(" ");
-        //         }
-        //         // System.out.print("\n");
-        //         for(int k=1;k<=2*i-1;k++){
-        //             System.out.print("*");
-        //         }
-        //         // for(int l=1;l<=i-1;l++){
-        //         //     System.out.print("*");
-        //         // }
-        //         System.out.print("\n");
-        //     }
-        // }
+            int n = sc.nextInt();
+            for(int i =1; i<=n;i++){
+                for(int j=1; j<=n-i;j++){
+                    System.out.print(" ");
+                }
+                // System.out.print("\n");
+                for(int k=1;k<=2*i-1;k++){
+                    System.out.print("*");
+                }
+                // for(int l=1;l<=i-1;l++){
+                //     System.out.print("*");
+                // }
+                System.out.print("\n");
+            }
+        }
 
 
         // try(Scanner sc = new Scanner(System.in)){
@@ -186,22 +186,22 @@ public class practice {
         // }
 
 
-        try(Scanner sc = new Scanner(System.in)){
-            int n = sc.nextInt();
-            int m = sc.nextInt();
+        // try(Scanner sc = new Scanner(System.in)){
+        //     int n = sc.nextInt();
+        //     int m = sc.nextInt();
 
-            for(int i=1;i<=n;i++){
-                for(int j=1;j<=m;j++){
-                    if(i==1 || j==1 || i==n || j==m){
-                        System.out.print("*");
-                    }
-                    else{
-                        System.out.print(" ");
-                    }
-                }
-                System.out.print("\n");
-            }
-        }
+        //     for(int i=1;i<=n;i++){
+        //         for(int j=1;j<=m;j++){
+        //             if(i==1 || j==1 || i==n || j==m){
+        //                 System.out.print("*");
+        //             }
+        //             else{
+        //                 System.out.print(" ");
+        //             }
+        //         }
+        //         System.out.print("\n");
+        //     }
+        // }
 
         
 
